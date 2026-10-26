@@ -1,0 +1,9 @@
+[package]
+name = "hashkey-zk-kyc-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Zero-knowledge identity and institutional regulatory gateway"
+license = "MIT"
+
+[dependencies]

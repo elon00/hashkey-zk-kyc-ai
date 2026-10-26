@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "hashkey-zk-kyc-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "HashKey Chain",
+        "PROJECT_TICKER": "HKZKYC"
+      },
+      "tools": [
+        {
+          "name": "verify_hkzkyc_invariants",
+          "description": "Verifies deterministic invariants for HashKey ZK-KYC AI on HashKey Chain."
+        },
+        {
+          "name": "execute_hkzkyc_action",
+          "description": "Executes authenticated Security state transition."
+        }
+      ]
+    }
+  }
+}
